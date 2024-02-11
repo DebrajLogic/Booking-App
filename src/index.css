@@ -4,6 +4,15 @@
 
 input[type='text'],
 input[type='password'],
-input[type='email'] {
+input[type='email'],
+textarea {
     @apply w-full border my-1 py-2 px-3 rounded-2xl outline-none text-gray-600
+}
+
+label {
+    @apply cursor-pointer
+}
+
+button {
+    @apply px-6 py-1 rounded-full
 }
